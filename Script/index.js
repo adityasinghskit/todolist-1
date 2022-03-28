@@ -16,4 +16,5 @@ function addtodo() {
     let todoarr=JSON.parse(localStorage.getItem("todokey")) || [];
     todoarr.push(obj);
     localStorage.setItem("todokey",JSON.stringify(todoarr));
+    window.location.reload();
 }
