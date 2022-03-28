@@ -12,7 +12,7 @@ todoarr.map(function(el,ind) {
     td2.innerText=el.qty;
     let td3=document.createElement("td");
     td3.innerText=el.priority;
-    let td4=document.createElement("p");
+    let td4=document.createElement("td");
     td4.innerText="Mark as Complete";
     td4.onclick=function(){
         comptodo(el,ind);
